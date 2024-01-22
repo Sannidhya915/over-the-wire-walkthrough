@@ -1,0 +1,35 @@
+Command to login:
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+
+Enter pwd:
+bandit0
+
+***
+bandit0@bandit.labs.overthewire.org's password: 
+
+      ,----..            ,----,          .---.
+     /   /   \         ,/   .`|         /. ./|
+    /   .     :      ,`   .'  :     .--'.  ' ;
+   .   /   ;.  \   ;    ;     /    /__./ \ : |
+  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
+  .   |  ' ' ' : `----'  |  |  \   ;  `      |
+  '   ;  \; /  |     '   :  ;   .   \    .\  ;
+   \   \  ',  /      |   |  '    \   \   ' \ |
+    ;   :    /       '   :  |     :   '  |--"
+     \   \ .'        ;   |.'       \   \ ;
+  www. `---` ver     '---' he       '---" ire.org
+
+
+
+There's a readme file.
+
+Read the contents using:
+cat readme
+
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+
+This is pwd for loggint to bandit1.

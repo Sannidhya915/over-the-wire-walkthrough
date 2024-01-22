@@ -1,0 +1,16 @@
+Login using:
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+move to inhere directory
+
+There's a hidden file in here, can be listed using
+ls --all
+
+
+read it with:
+cat .hidden
+
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe

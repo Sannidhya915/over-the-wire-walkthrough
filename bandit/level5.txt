@@ -1,0 +1,33 @@
+Login using:
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+
+Need to find a file with the following properties:
+human-readable
+1033 bytes in size
+not executable
+
+I'll use the  following command:
+
+find . -type f -readable -size 1033c ! -executable -print
+
+
+-type f = restricts to finding regular files only
+-readable = search only files with read permissions
+-size 1033c = finds file of 1033byte size
+! - executable = excludes executables
+
+You get the following result:
+./maybehere07/.file2
+
+Read using:
+cat ./maybehere07/.file2
+
+NOTE : There are other files similarly named in the same directory ie. -file2 , spaces file2. Don't let them confuse you.
+
+The contents of file:
+
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU

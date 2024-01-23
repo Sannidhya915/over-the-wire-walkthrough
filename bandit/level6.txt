@@ -1,0 +1,28 @@
+Login using:
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+
+Need to find the filw with following properties:
+owned by user bandit7
+owned by group bandit6
+33 bytes in size
+
+Used the following cmd:
+
+find / -group bandit6 -type f -user bandit7 -size 33c
+
+-group = specify group the file belongs to.
+-user =  secify user the file belongs to.
+-size = specify file size.
+-type f = search for regular file.
+
+It's better to filter the results using grep cmd. But i found the file location without it. (not too long list 😅)
+
+/var/lib/dpkg/info/bandit7.password
+
+Read the above file using cat cmd:
+
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S

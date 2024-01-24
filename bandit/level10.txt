@@ -1,0 +1,17 @@
+Login using:
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+
+The password for next level is stored in data.txt which is base64 encoded this can simply be decoded with any decoder available online.
+
+https://www.base64decode.net/
+
+can be used to decode.
+
+By decoding we get : 
+
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+

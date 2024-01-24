@@ -1,0 +1,20 @@
+Login using:
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+
+Need to find the pwd in data.txt, it's the only line that appears only once, i.e the other lines appear multiple times.
+
+So I shall filter the pwd using the following cmd:
+
+sort data.txt | uniq -u
+
+sort = sorts the lines alphabetically
+
+uniq -u = prints only unique lines.
+
+So I get the following o/p:
+
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t

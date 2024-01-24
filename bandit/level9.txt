@@ -1,0 +1,17 @@
+Login using:
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+
+Since the required pwd is preceeded by multiple no (unkown no.) of '=' symbols. I just simply searched for the pattern ======== using grep.
+
+grep '========' data.txt -a
+
+-a equivalent to --binary-files=text and it should show the matches in binary files.
+
+Other approaches may include using awk or using regular expressions.
+
+o/p:
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s

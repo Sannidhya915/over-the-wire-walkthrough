@@ -1,0 +1,19 @@
+Login using:
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+
+Pwd:
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+Search for pwd in data.txt, use the command.
+
+grep 'millionth' data.txt
+
+
+You get the following o/p:
+
+millionth       TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP is the pwd for bandit8.
+
+
